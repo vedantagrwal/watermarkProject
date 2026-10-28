@@ -1,0 +1,10 @@
+LIME on all 2381  vs SHAP: top-10 Jaccard 0.000  surrogate R2 0.053
+LIME on top 30    vs SHAP: top-10 Jaccard 0.367  surrogate R2 0.560
+LIME on top 60    vs SHAP: top-10 Jaccard 0.348  surrogate R2 0.470
+LIME on top 100   vs SHAP: top-10 Jaccard 0.329  surrogate R2 0.470
+LIME(top-60) vs SHAP top-10 Jaccard 0.345 | sign agreement 0.848 | LIME seed-stability 0.675 | surrogate R2 0.470
+deletion SHAP (top-k pushing to malware)            {5: 0.1171, 10: 0.1817, 20: 0.3353}
+deletion LIME top-60 (top-k pushing to malware)     {5: 0.0693, 10: 0.1186, 20: 0.0692}
+deletion Global importance (same k for all files)   {5: 0.026, 10: 0.0248, 20: 0.0618}
+deletion Random features                            {5: 0.0, 10: -0.0004, 20: -0.0001}
+LIME(MLP) vs LIME(LightGBM) top-10 Jaccard 0.382

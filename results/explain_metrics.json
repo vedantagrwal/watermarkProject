@@ -1,0 +1,110 @@
+{
+  "family_share": {
+    "Opcode proxy (byte freq.)": 0.4009685588965824,
+    "Strings": 0.15889928313885815,
+    "PE header": 0.33644943222701323,
+    "API calls": 0.10368272573754626
+  },
+  "lime_subset_size": 60,
+  "shap_lime_jaccard_top10": 0.3449687567334626,
+  "shap_lime_sign_agreement": 0.8482142857142858,
+  "lime_stability_top10": 0.6753246753246753,
+  "lime_surrogate_r2": 0.46993820937876035,
+  "lime_subset_sensitivity": {
+    "all 2381": {
+      "jaccard": 0.0,
+      "surrogate_r2": 0.05293270730234529
+    },
+    "top 30": {
+      "jaccard": 0.3672232995762407,
+      "surrogate_r2": 0.5599890011502221
+    },
+    "top 60": {
+      "jaccard": 0.34831573655103065,
+      "surrogate_r2": 0.47017175514317916
+    },
+    "top 100": {
+      "jaccard": 0.32908496732026143,
+      "surrogate_r2": 0.46964448494065414
+    }
+  },
+  "deletion_mean_score_drop": {
+    "SHAP (top-k pushing to malware)": {
+      "5": 0.1171,
+      "10": 0.1817,
+      "20": 0.3353
+    },
+    "LIME top-60 (top-k pushing to malware)": {
+      "5": 0.0693,
+      "10": 0.1186,
+      "20": 0.0692
+    },
+    "Global importance (same k for all files)": {
+      "5": 0.026,
+      "10": 0.0248,
+      "20": 0.0618
+    },
+    "Random features": {
+      "5": 0.0,
+      "10": -0.0004,
+      "20": -0.0001
+    }
+  },
+  "lime_mlp_vs_lgbm_jaccard": 0.3815018315018314,
+  "n_explained": {
+    "malware": 40,
+    "shap_global": 1500
+  },
+  "top10": [
+    [
+      "hdr_timestamp",
+      "PE header",
+      0.5982
+    ],
+    [
+      "dd_CERTIFICATE_size",
+      "PE header",
+      0.5515
+    ],
+    [
+      "sec_read_exec",
+      "PE header",
+      0.5142
+    ],
+    [
+      "hdr_coff_characteristics_0",
+      "PE header",
+      0.4946
+    ],
+    [
+      "hdr_subsystem_8 (~WINDOWS_GUI|UNKNOWN)",
+      "PE header",
+      0.277
+    ],
+    [
+      "dd_DEBUG_vaddr",
+      "PE header",
+      0.2707
+    ],
+    [
+      "str_char_0x71('q')",
+      "Strings",
+      0.2068
+    ],
+    [
+      "dd_CERTIFICATE_vaddr",
+      "PE header",
+      0.1857
+    ],
+    [
+      "dd_RESOURCE_size",
+      "PE header",
+      0.1837
+    ],
+    [
+      "sec_characteristics_37",
+      "PE header",
+      0.1662
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Downloaded EMBER data
+data/raw/
+data/processed.npz
+
+# Local/generated runtime artifacts
+*.part
+results/*.log.venv/
+data/raw/
+data/processed.npz
+data/download.log
+__pycache__/
+*.pyc
+.DS_Store

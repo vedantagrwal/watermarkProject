@@ -1,0 +1,51 @@
+rank,feature,family,mean_abs_shap
+1,"hdr_timestamp",PE header,0.59819
+2,"dd_CERTIFICATE_size",PE header,0.55148
+3,"sec_read_exec",PE header,0.51417
+4,"hdr_coff_characteristics_0",PE header,0.49458
+5,"hdr_subsystem_8 (~WINDOWS_GUI|UNKNOWN)",PE header,0.27703
+6,"dd_DEBUG_vaddr",PE header,0.27066
+7,"str_char_0x71('q')",Strings,0.20682
+8,"dd_CERTIFICATE_vaddr",PE header,0.18570
+9,"dd_RESOURCE_size",PE header,0.18373
+10,"sec_characteristics_37",PE header,0.16619
+11,"num_imports",PE header,0.16105
+12,"dd_DEBUG_size",PE header,0.13310
+13,"str_MZ_headers",Strings,0.12908
+14,"str_char_0x5F('_')",Strings,0.12674
+15,"byte_0x01",Opcode proxy (byte freq.),0.12611
+16,"sec_writable",PE header,0.11338
+17,"byte_0x69",Opcode proxy (byte freq.),0.10678
+18,"entropy_bin15_hinibbleB",Opcode proxy (byte freq.),0.10514
+19,"byte_0x5F (POP edi)",Opcode proxy (byte freq.),0.10032
+20,"dd_IMPORT_vaddr",PE header,0.09576
+21,"byte_0x80",Opcode proxy (byte freq.),0.09523
+22,"hdr_major_subsystem_ver",PE header,0.09222
+23,"str_char_0x6A('j')",Strings,0.08729
+24,"byte_0x15",Opcode proxy (byte freq.),0.07784
+25,"str_char_0x32('2')",Strings,0.07668
+26,"dd_EXPORT_size",PE header,0.07486
+27,"dd_IAT_size",PE header,0.07431
+28,"sec_vsize_43",PE header,0.07369
+29,"sec_entropy_43",PE header,0.07338
+30,"str_char_0x20(' ')",Strings,0.07176
+31,"str_char_0x2E('.')",Strings,0.07093
+32,"imp_api_1011 (~mscoree.dll:_CorDllMain)",API calls,0.06961
+33,"byte_0x20",Opcode proxy (byte freq.),0.06961
+34,"has_debug",PE header,0.06954
+35,"str_char_0x47('G')",Strings,0.06938
+36,"imp_lib_8 (~wininet.dll)",API calls,0.06749
+37,"str_avg_length",Strings,0.06667
+38,"imp_lib_51 (~ws2_32.dll)",API calls,0.06540
+39,"sec_size_43",PE header,0.06449
+40,"byte_0x59 (POP ecx)",Opcode proxy (byte freq.),0.06241
+41,"byte_0x7B",Opcode proxy (byte freq.),0.05956
+42,"str_char_0x41('A')",Strings,0.05862
+43,"str_char_0x6D('m')",Strings,0.05850
+44,"entropy_bin07_hinibble5",Opcode proxy (byte freq.),0.05693
+45,"entropy_bin15_hinibble9",Opcode proxy (byte freq.),0.05618
+46,"sec_entropy_41",PE header,0.05574
+47,"entropy_bin15_hinibbleF",Opcode proxy (byte freq.),0.05492
+48,"sec_vsize_32",PE header,0.05459
+49,"byte_0x6E",Opcode proxy (byte freq.),0.05402
+50,"hdr_sizeof_code",PE header,0.05330

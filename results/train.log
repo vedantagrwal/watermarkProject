@@ -1,0 +1,12 @@
+train (12241, 2381) malware 45.15% | test (6000, 2381) malware 49.87%
+Logistic regression            AUC 0.9144  acc 0.8557  TPR@1%FPR 0.1213
+MLP (deep-learning baseline)   AUC 0.9457  acc 0.8967  TPR@1%FPR 0.5114
+LightGBM (proposed)            AUC 0.9753  acc 0.9173  TPR@1%FPR 0.7112
+ablation only Opcode proxy (byte freq.)           AUC 0.9388
+ablation without Opcode proxy (byte freq.)        AUC 0.9732
+ablation only Strings                             AUC 0.9310
+ablation without Strings                          AUC 0.9738
+ablation only PE header                           AUC 0.9647
+ablation without PE header                        AUC 0.9606
+ablation only API calls                           AUC 0.8765
+ablation without API calls                        AUC 0.9748
